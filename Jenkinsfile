@@ -6,6 +6,11 @@ pipeline {
                 echo 'This is $BUILD_NUMBER of demo $DEMO'
             }
         }
+        stage('stage2'){
+            steps {
+                echo "This is $BUILD_NUMBER of demo $DEMO"
+            }
+        }
     }
     environment {
         DEMO = '1'
