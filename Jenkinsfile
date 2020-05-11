@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        state('stage1'){
+        stage('stage1'){
             steps {
                 echo 'This is $BUILD_NUMBER of demo $DEMO'
             }
