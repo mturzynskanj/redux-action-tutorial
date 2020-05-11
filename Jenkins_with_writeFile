@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        RELEASE = '20.04',
+        RELEASE = '20.04'
         LOG_LEVEL = 'TEST_Level'
     }
     stages {
